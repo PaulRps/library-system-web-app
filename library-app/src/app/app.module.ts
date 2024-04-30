@@ -4,7 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { CoreModulesTsModule } from './core/components/core.modules';
+
 
 
 @NgModule({
@@ -14,7 +15,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatSlideToggleModule,
+    CoreModulesTsModule,
   ],
   providers: [
     provideAnimationsAsync('noop')
