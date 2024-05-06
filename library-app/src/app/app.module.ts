@@ -4,7 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-import { CoreModulesTsModule } from './core/components/material.modules';
+import { CoreModulesTs } from './core/core.modules';
+
 
 
 
@@ -15,7 +16,7 @@ import { CoreModulesTsModule } from './core/components/material.modules';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CoreModulesTsModule,
+    CoreModulesTs,
   ],
   providers: [
     provideAnimationsAsync('noop')
