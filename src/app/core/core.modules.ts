@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MaterialModulesTs } from './components/material.modules';
+import { ComponentsModule } from './components/components.module';
 
 
 
@@ -11,6 +12,6 @@ import { MaterialModulesTs } from './components/material.modules';
     CommonModule,
     MaterialModulesTs
   ],
-  exports: [MaterialModulesTs]
+  exports: [MaterialModulesTs,ComponentsModule]
 })
 export class CoreModulesTs { }
