@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-import {MatTabsModule} from '@angular/material/tabs';
+import { MatTabsModule } from '@angular/material/tabs';
 
 
 @NgModule({
@@ -9,6 +9,6 @@ import {MatTabsModule} from '@angular/material/tabs';
   imports: [
     CommonModule,
   ],
-  exports: [MatSlideToggleModule,MatTabsModule]
+  exports: [MatSlideToggleModule, MatTabsModule]
 })
 export class MaterialModulesTs { }
